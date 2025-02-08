@@ -9,6 +9,9 @@ export const ONRAMP_POPUP_HEIGHT = 720;
 export const ONRAMP_POPUP_WIDTH = 460;
 export const ONRAMP_API_BASE_URL =
   'https://api.developer.coinbase.com/onramp/v1';
+
+
+
 // Time in milliseconds to wait before resetting the button state to default after a transaction is completed.
 export const FUND_BUTTON_RESET_TIMEOUT = 3000;
 
