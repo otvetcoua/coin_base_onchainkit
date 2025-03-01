@@ -1,6 +1,5 @@
 import { fireEvent, render, screen } from '@testing-library/react';
 import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest';
-import { DismissableLayer } from './DismissableLayer';
 
 describe('DismissableLayer', () => {
   const onDismiss = vi.fn();
